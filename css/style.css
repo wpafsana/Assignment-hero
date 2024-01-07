@@ -6,3 +6,40 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;  
 }
+header{
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: #FFF; 
+}
+
+.header-content{
+    background-image: url('/images/banner/Banner\ Image.png');
+    background-repeat: no-repeat;
+    height:500px;
+    background-size:100%;
+    background-position: center center;
+    border-radius: 16px; 
+    width: 100%; 
+}
+.header-title{
+   text-align: center;
+}
+.title-1{
+    padding-top: 120px;
+    color:white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    text-shadow: 3px 3px black;
+    
+}
+.title-2{
+    color:black;
+    text-shadow: 2px 2px #FFF;
+  text-align: center;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: 95px; /* 131.944% */
+}
