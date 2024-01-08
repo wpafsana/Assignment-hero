@@ -94,14 +94,15 @@ padding-bottom: 30px;
     background-position: center center;
     border-radius: 16px; 
     width: 100%; 
+    
 }
 .party-content{
     text-align: start;
     background:linear-gradient(90deg, #000001 0%, rgba(7, 2, 17, 0.00) 100%);
     background-attachment: fixed;
    height: 500px;
-   padding-left: 126px;
-   width: 55%;
+   padding-left: 120px;
+   width: 89%;
  border-radius: 16px 16px  0;
 }
 .party-content h1{
