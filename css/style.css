@@ -136,6 +136,11 @@ padding-bottom: 30px;
     background-color:rgb(5, 162, 224);
     color: #FFF;
 }
+
+/* date section style */
+.date-section{
+    margin-bottom: 100px;
+}
 .date-content{
    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
    height: 350px;
@@ -178,9 +183,81 @@ span{
 
 
 
+
+
+
+
+
+
+
+
+/* subsceibe style */
+
+.subscribe-section{
+height: 400px;
+border-radius: 16px;
+background: #FFF2F2;
+margin-bottom: 100px;
+}
+.subscribe{
+    text-align: center;
+}
+.subsribe-content{
+ padding-top: 60px;
+}
+.subscribe-img img{
+    width: 80px;
+    padding-bottom: 25px;
+}
+.subscribe-title h1{
+color:  #070211;
+font-family: Merriweather;
+font-size: 35px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.subscribe-title p{
+color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+}
+.search{
+  max-width: 300px;
+  display: flex;
+  align-self: center;
+  margin: auto;
+  padding-top: 20px;
+}
+.search input{
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 80%;
+  background:#FFFFFF;
+  border: 1px solid grey;
+  border-radius: 50px 00px 0px 50px;
+}
+.search button{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border-radius: 0px 50px 50px 0px;
+    background:#eb7575;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; 
+    
+}
+.search button:hover{
+    background-color:rgb(5, 162, 224); 
+}
+
  /* footer section */
 footer{
-    padding-bottom: 100px;
+    padding-bottom: 60px;
  width: 100%;
  background-color: #070211;
 }
@@ -192,12 +269,12 @@ footer{
 }
 .left-content{
     padding-left: 100px;
-    width: 200px;
+    width: 220px;
 }
 .left-content p{
  color: #FFF;
 font-family: Inter;
-font-size: 13px;
+font-size: 15px;
 font-weight: 300;
 line-height: 15px;
 
@@ -214,7 +291,7 @@ line-height: 15px;
 }
 .right1 i{
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
     padding-left: 11px;
     padding-right: 6px;
   
@@ -222,7 +299,7 @@ line-height: 15px;
 .right1 p{
     color: #FFF;
 font-family: Inter;
-font-size: 13px;
+font-size: 15px;
 font-weight: 500;
 }
 .right2{
@@ -238,7 +315,7 @@ font-weight: 500;
 .right2 p{
     color: #FFF;
 font-family: Inter;
-font-size: 13px;
+font-size: 15px;
 font-weight: 500;
 }
 .social-link{
@@ -269,13 +346,13 @@ color: #FDAA46;
 .resered1{
  color: #FFF;
 font-family: Inter;
-font-size: 13px;
+font-size: 15px;
 font-weight: 500;
 }
 .resered2{
  color: #FFF;
 font-family: Inter;
-font-size: 13px;
+font-size: 15px;
 padding-left: 20px;
 font-weight: 500;
 
