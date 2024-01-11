@@ -268,7 +268,93 @@ padding-top: 20px;
 }
 
 /* collection section style */
+/* holiday style */
+.holiday-section{
+    padding-bottom: 100px;
+}
+.holiday-content{
+    text-align: center;
+}
+.holiday-content h5{
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-size: 700;
+    text-transform: capitalize;
+}
+.holiday-content h1{
+ font-size: 45px;
+ text-transform: capitalize;
+ font-weight: 900;
+ padding-bottom: 20px;
+}
+.holiday-content p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.holiday-sale{
+    display: flex; 
+     margin: 0 100px;
+    height: 500px;
+    width: 100%;
+}
+.box{
+    position: relative;
+}
+.line{
+    width: 100%;
+    z-index:1;
+    
+}
+.line img{
+    width: 100%;
+}
+.brow{
+    top:100px;
+    z-index:4;
+   
+}
+.brow img{
+    width: 50%;
+}
+.box2{
+    position: relative;
+}
+.women{
+    z-index:3;
+}
+.discount{ 
+  top:-260px;
+  z-index: 4;
+  left:-250px
+}
+.discount img{
+    width:80%;
+}
+.women{
+    position: relative;
+    right: 100px;
+}
+.women img{
+    width: 100%;
+}
+.left-holiday{
+    position: relative;
+   z-index: 3;
+}
+.right-holiday{
+    position: relative;
+    left: -162px;
+    bottom: -100px;
+    z-index: 2;
+}
 
+/* .holiday-sale{
+    position: relative;
+} */
+
+
+/* collection style */
 .collection-section{
     margin-bottom: 100px;
 }
